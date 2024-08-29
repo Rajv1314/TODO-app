@@ -14,9 +14,7 @@ btn.addEventListener('click', function () {
     task.appendChild(dlt)
     task.appendChild(update)
     ul.appendChild(task)
-    // ul.appendChild(task)
     input.value = "";
-  
 })
 ul.addEventListener('click',function(event){
     if(event.target.nodeName=="BUTTON"){
